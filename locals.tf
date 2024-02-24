@@ -15,10 +15,19 @@ locals {
       gitignore_template = "Terraform"
       visibility = "public"
     }
+
     "rf-terraform-aws-vpc" = {
       name = "rf-terraform-aws-vpc"
       owner = "ryanef"
-      description = "automation repo for tfe"
+      description = "automation repo for AWS VPC"
+      gitignore_template = "Terraform"
+      visibility = "public"
+    }
+
+    "rf-terraform-aws-compute" = {
+      name = "rf-terraform-aws-compute"
+      owner = "ryanef"
+      description = "automation repo for EC2"
       gitignore_template = "Terraform"
       visibility = "public"
     }
