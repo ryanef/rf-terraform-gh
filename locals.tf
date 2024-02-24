@@ -16,19 +16,5 @@ locals {
       visibility = "public"
     }
 
-    "rf-terraform-aws-vpc" = {
-      name = "rf-terraform-aws-vpc"
-      owner = "ryanef"
-      description = "automation repo for aws vpc"
-      gitignore_template = "Terraform"
-      visibility = "public"    
-    }
-    "rf-terraform-aws-compute" = {
-      name = "rf-terraform-aws-compute"
-      owner = "ryanef"
-      description = "automation repo for aws vpc"
-      gitignore_template = "Terraform"
-      visibility = "public"    
-    }
   }
 }
