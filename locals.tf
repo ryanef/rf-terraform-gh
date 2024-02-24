@@ -1,7 +1,7 @@
 locals {
   repos = {
     "rf-terraform-gh"  = {
-      name = "tf-terraform-gh"
+      name = "rf-terraform-gh"
       owner = "ryanef"
       description = "automation repo for github repos"
       gitignore_template = "Terraform"
@@ -9,7 +9,7 @@ locals {
     }
 
     "rf-terraform-tfe" = {
-      name = "tf-terraform-tfe"
+      name = "rf-terraform-tfe"
       owner = "ryanef"
       description = "automation repo for tfe"
       gitignore_template = "Terraform"
@@ -17,7 +17,7 @@ locals {
     }
 
     "rf-aws-vpc" = {
-      name = "tf-terraform-tfe"
+      name = "rf-terraform-tfe"
       owner = "ryanef"
       description = "automation repo for tfe"
       gitignore_template = "Terraform"
