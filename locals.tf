@@ -17,7 +17,7 @@ locals {
     }
 
     "rf-aws-vpc" = {
-      name = "rf-terraform-tfe"
+      name = "rf-terraform-aws-vpc"
       owner = "ryanef"
       description = "automation repo for tfe"
       gitignore_template = "Terraform"
